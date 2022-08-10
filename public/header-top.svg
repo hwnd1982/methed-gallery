@@ -1,0 +1,30 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="100%"
+  height="auto"
+  version="1.1"
+  viewBox="0 0 3500 700"
+>
+  <defs>
+    <style>
+      .additional {
+        fill: #993366;
+        fill: currentColor;
+        filter: brightness(1.6);
+      }
+
+      .main {
+        fill: #660066;
+        fill: currentColor;
+      }
+    </style>
+  </defs>
+  <polygon
+    class="additional "
+    points="3417.18,627.81 2275.45,2.7 3508.14,3.79 3508.14,465.66 "
+  />
+  <polygon
+    class="main"
+    points="-1.36,126.34 399.87,471.81 3508.14,95.45 3508.14,3.79 -1.36,0.68 "
+  />
+</svg>
