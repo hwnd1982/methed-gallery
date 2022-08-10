@@ -19,6 +19,7 @@ p {
 }
 
 .header {
+  margin-top: -70px;
   position: relative;
   text-align: center;
   background: linear-gradient(60deg, rgba(84, 58, 183, 1) 0%, rgba(0, 172, 193, 1) 100%);
@@ -34,7 +35,7 @@ p {
 }
 
 .inner-header {
-  height: 65vh;
+  height: 50vh;
   width: 100%;
   margin: 0;
   padding: 0;
@@ -56,11 +57,12 @@ p {
   /*Fix for safari gap*/
   min-height: 100px;
   max-height: 150px;
+  z-index: 100;
 }
 
 .content {
   position: relative;
-  height: 20vh;
+  height: 10vh;
   text-align: center;
   background-color: white;
 }

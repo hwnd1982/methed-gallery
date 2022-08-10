@@ -9,13 +9,10 @@
     <style>
       .additional {
         fill: #993366;
-        fill: currentColor;
-        filter: brightness(1.6);
       }
 
       .main {
         fill: #660066;
-        fill: currentColor;
       }
     </style>
   </defs>

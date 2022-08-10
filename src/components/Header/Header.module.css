@@ -1,3 +1,61 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 20vw;
+  z-index: 1;
+}
+
+.header-front {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding-top: 30px;
+  background-image: url('./img/header-front.svg');
+  min-height: calc(20vw - 30px);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0 0;
+  z-index: 100;
+}
+
+.header-back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-image: url('./img/header-back.svg');
+  min-height: 20vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0 0;
+  z-index: -5;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 150px;
+  height: 150px;
+}
+
+.auth {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.auth-link {
+  text-decoration: none;
+  width: 64px;
+  height: 64px;
+}
+
 .button {
   position: relative;
   padding: 0;
